@@ -1,0 +1,11 @@
+const mongoose = require('mongoose');
+mongoose.pluralize(null);
+
+const ProdutosDB = mongoose.connection.useDb('Produtos');
+
+const TipoProduto = ProdutosDB.model("TipoProduto", mongoose.Schema({
+    id: Number,
+    nome: String
+}))
+
+module.exports = TipoProduto;

@@ -1,0 +1,39 @@
+.buttonFirstScreen {
+    width: 60% !important;
+    margin-left: 20% !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    font-family: 'Jura';
+    font-weight: bolder;
+    letter-spacing: 0.8em;
+    text-align: left;
+    --bs-btn-hover-bg: transparent !important;
+    --bs-btn-hover-color: #dc3545 !important;
+    --bs-btn-bg: #dc3545 !important;
+    color: #fff;
+}
+
+.buttonFirstScreenMobile {
+    width: 70% !important;
+    height: 100%;
+    margin-left: 15% !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    font-family: 'Jura';
+    font-weight: bolder;
+    text-align: left;
+    --bs-btn-hover-bg: transparent !important;
+    --bs-btn-hover-color: #dc3545 !important;
+    --bs-btn-bg: #dc3545 !important;
+    color: #fff;
+}
+
+.d-grid {
+    margin-top: 10%;
+}
+
+.d-grid > a {
+    margin-top: 2%;
+}
+

@@ -1,0 +1,256 @@
+body {
+    height: 100% !important;
+}
+.Tabela {
+    width: 85%;
+    margin-left: 7.5%;
+    height: 100%;
+    display: flex;
+    margin-top: 1.2%;
+}
+
+.gelpCx {
+    width: 85% !important;
+    margin-left: 7.5% !important;
+    margin-top: 1.2% !important;
+}
+
+.rdt_Pagination {
+    width: 85% !important;
+    margin-left: 7.5% !important;
+    margin-top: 1.2% !important;
+}
+
+
+.buttonImprimir {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonColorImprimir {
+    color: rgb(59, 90, 215)
+}
+
+.buttonDisableImprimir {
+    color: #d1d1d180  !important;
+}
+
+/* DataTableDemo.css */
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+.datatable-doc-demo .p-progressbar {
+    height: 0.5rem;
+    background-color: #d8dadc;
+}
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+    background-color: #607d8b;
+}
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+.datatable-doc-demo .p-datepicker td {
+    font-weight: 400;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+    text-align: left;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+
+.modalDiv{
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Jura';
+    font-style: normal;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.modalPedido{
+    width: 35%;
+    margin-left: 3px;
+}
+
+.modalInfoPedido{
+    font-size: 16px;
+    display: inline-flex;
+}
+
+.modalNome{
+    width: 65%;
+    text-align: right;
+}
+
+.modal-footer > .totalPedido {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.modalItens {
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #747474;
+    border-bottom: 0.2px solid #00000010;
+    padding: 8px 15px 0px 15px;
+}
+
+.modalItem {
+    width: 90%;
+    align-items: center;
+    text-align: left;
+}
+
+.modalValorItem {
+    width: 10%;
+    align-items: center;
+    text-align: right;
+}
+
+.btnClosePrint {
+    border-radius: 25px;
+    grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.cEMZEX {
+    width: 85% !important;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px !important;
+    border-radius: 25px;
+}
+
+.cQLlaq {
+    background-color: #f1f1f1 !important;
+    padding: 10px !important;
+}
+
+.eAWRvo {
+    font-size: 15px;
+    font-family: 'jura';
+    font-style: normal;
+}
+
+.kWAsOx {
+    font-size: 20px;
+    font-family: 'jura';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.348);
+}
+
+.rdt_TableHeadRow {
+    letter-spacing: 0.2em;
+}
+
+.ifOHjV {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+}
+
+.pausarPrint {
+    width: 95%;
+    height: 5%;
+    margin-left: 2.5%;
+}
+
+.pausarPrint > div {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.btnMarginRight {
+    margin-right: 1%;
+}
+
+.btnPausarPrint {
+    color: #c52323a2;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #c5232352;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.btnPrint{
+    color: #000000a2;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.btnPrint:disabled{
+    color: #0000002a;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.iconeBloqueio {
+    color: #c52323a2;
+}
+
+.iconeBloqueioDisabled {
+    color: #00000025;
+}
+
+.btnImprimirFila
+{
+    color: #0011ffa2;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #0011ff33;
+    border: 1px solid rgba(0, 17, 255, 0.288);
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.iconePrintFalse {
+    color: #00000025;
+}
+
+.iconePrint {
+    color: #0011ffa2;
+}

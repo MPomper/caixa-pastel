@@ -1,0 +1,231 @@
+body {
+    height: 100% !important;
+}
+.Tabela {
+    width: 85%;
+    margin-left: 7.5%;
+    height: 100%;
+    display: flex;
+    margin-top: 1.2%;
+}
+
+.gelpCx {
+    width: 85% !important;
+    margin-left: 7.5% !important;
+    margin-top: 1.2% !important;
+}
+
+.rdt_Pagination {
+    width: 85% !important;
+    margin-left: 7.5% !important;
+    margin-top: 1.2% !important;
+}
+
+.acoesButton {
+    display: inline-flex;
+    width: 100%;
+}
+
+.acoesBar{
+    padding: 1% 4% 0% 4%;
+    color: rgba(0, 0, 0, 0.164);
+    font-size: 22px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.buttonPagar {
+    PADDING: 3%;
+    margin-right: 5px;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonPagarAll {
+    border: none;
+    font-size: 15px;
+    background: transparent;
+    margin-right: auto;
+    margin-left: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonColorPagar {
+    color: #4abf61
+}
+
+.buttonDisable {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: #d1d1d180  !important;
+}
+
+.buttonEditar {
+    PADDING: 3%;
+    margin-right: auto;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonColorEditar {
+    color: #2552bb
+}
+
+/* DataTableDemo.css */
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+.datatable-doc-demo .p-progressbar {
+    height: 0.5rem;
+    background-color: #d8dadc;
+}
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+    background-color: #607d8b;
+}
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+.datatable-doc-demo .p-datepicker td {
+    font-weight: 400;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+    text-align: left;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+
+.modalDiv{
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Jura';
+    font-style: normal;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.modalPedido{
+    width: 35%;
+    margin-left: 3px;
+}
+
+.modalInfoPedido{
+    font-size: 16px;
+    display: inline-flex;
+}
+
+.modalNome{
+    width: 65%;
+    text-align: right;
+}
+
+.modal-footer > .totalPedido {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.modalItens {
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #747474;
+    border-bottom: 0.2px solid #00000010;
+    padding: 8px 15px 0px 15px;
+}
+
+.modalItem {
+    width: 90%;
+    align-items: center;
+    text-align: left;
+}
+
+.modalValorItem {
+    width: 10%;
+    align-items: center;
+    text-align: right;
+}
+
+.Concatenar {
+    background-color: #5b94e7;
+    font-size: 15px;
+    font-family: 'jura';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2em;
+    box-shadow: none !important;
+    height: 15%;
+    border-radius: 25px;
+    color: black;
+}
+
+.cEMZEX {
+    width: 85% !important;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px !important;
+    border-radius: 25px;
+}
+
+.cQLlaq {
+    background-color: #f1f1f1 !important;
+    padding: 10px !important;
+}
+
+.eAWRvo {
+    font-size: 15px;
+    font-family: 'jura';
+    font-style: normal;
+}
+
+.kWAsOx {
+    font-size: 20px;
+    font-family: 'jura';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.348);
+}
+
+.rdt_TableHeadRow {
+    letter-spacing: 0.2em;
+}
+
+.ifOHjV {
+    width: 95% !important;
+    margin-left: 2.5% !important;
+}

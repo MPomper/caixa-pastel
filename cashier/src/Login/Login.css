@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#root {
+    height: 100%;
+    width: 100%;
+  }
+.loginCashier > * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginContainer {
+    height: 100%;
+}
+
+.bodyClass {
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sectionClass {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding-top: 12px;
+    width: 70%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.sectionClass > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionClass > header > h1 {
+    margin: 8px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sectionClass > header > img {
+    margin-bottom: 8px;
+    height: 80px;
+}
+
+.sectionClass > form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 8px 24px;
+}
+
+.sectionClass > form > h1 {
+    color: #006ADD;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.sectionClass > form > input {
+    margin: 8px 0px;
+    height: 32px;
+    border: 2px solid #006ADD;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    padding: 0px 8px;
+    font-size: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.submit {    
+    margin: 8px 24px;
+}
+
+.cadastro {    
+    margin: 8px 24px;
+}
+
+.btnSubmit {
+    background-color: #006ADD;
+    color: #ffffff;
+    border: 0;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btnCreate {
+    background-color: #bebebe;
+    color: #ffffff;
+    border: 0;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sectionClass > footer {
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 12px 0px 12px 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.sectionClass > footer > a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 60%;
+}
