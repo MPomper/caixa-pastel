@@ -2,12 +2,14 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 var cors = require('cors');
-
+const PORT = process.env.PORT || 3100;
 
 const pedidosRoutes = require('./routes/pedidosRoutes')
 const produtosRoutes = require('./routes/produtosRoutes')
 const statusRoutes = require('./routes/statusRoutes')
 const usersRoutes = require('./routes/usersRoutes')
+
+require('dotenv').config();
 
 app.use(cors())
 
@@ -36,4 +38,4 @@ mongoose.connect('')
     console.log(e)
 })
 
-app.listen(3100);
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));

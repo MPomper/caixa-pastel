@@ -5,6 +5,7 @@ const Pedidos = require('../models/Pedidos');
 const PedidosPago = require('../models/PedidosPago');
 const PedidosPrint = require('../models/PedidosPrint');
 const Status = require('../models/Status');
+const { verifyJWT } = require('../services/authorizationService');
 
 const { Mutex } = require('async-mutex');
 const mutex = new Mutex();
@@ -21,7 +22,7 @@ const device = new escpos.USB();
 console.log(device);
 const options = { encoding: "GB18030" /* default */ };
 
-router.post('/', async (req, res)=>{
+router.post('/', verifyJWT,async (req, res)=>{
 
     const release = await mutex.acquire();
 

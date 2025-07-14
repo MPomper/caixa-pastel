@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken')
-const SECRET = 'segredoSecreto'
-const EXPIRE_TIME = 86400
+const SECRET = process.env.JWT_SECRET;
+const EXPIRE_TIME = process.env.JWT_EXPIRE || '1h';
 
-// recebe o que será colocado no JWT, faz a geraão e o retorna
+// recebe o que será colocado no JWT, faz a geração e o retorna
 function generateJWT(payload)
 {
     const token = jwt.sign(payload,SECRET,{expiresIn: EXPIRE_TIME})

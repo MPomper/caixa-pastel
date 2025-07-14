@@ -1,6 +1,8 @@
 const router = require('express').Router();
 var mongoose = require('mongodb')
 const User = require('../models/User');
+const { generateJWT } = require('../services/authorizationService');
+
 
 router.get('/:login/:senha', async (req, res) => {
     try {
@@ -17,7 +19,8 @@ router.get('/:login/:senha', async (req, res) => {
                 } else if (!isMatch) {
                     res.status(203).json({message: 'Senha incorreta.'})
                 } else {
-                    res.status(200).json(user);
+                    const token = generateJWT({ email: user.email });
+                    res.json({ success: true, token });
                 } 
             });
         });
